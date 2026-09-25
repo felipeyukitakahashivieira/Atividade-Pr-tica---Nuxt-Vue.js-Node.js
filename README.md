@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Atividade Prática - Desenvolvimento Web (Node.js, Vue.js e Nuxt)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplicação desenvolvida para a disciplina de Engenharia de Software para consolidação do ecossistema moderno com **Node.js**, **Vue.js 3** e **Nuxt 3**.
 
-## Setup
+## 🚀 Funcionalidades Implementadas
 
-Make sure to install dependencies:
+- **Página Inicial (`/`):** Apresentação da aplicação e navegação SPA.
+- **Página de Cadastro (`/cadastro`):** Formulário reativo completo contendo:
+  - Validação de campo obrigatório (Nome Completo).
+  - Validação de formato de e-mail válido.
+  - Seleção de curso / área de atuação (Dropdown).
+  - Período / Semestre (Campo numérico).
+  - Interesses / Habilidades (Checkboxes reativas).
+  - Mensagem / Bio curta com contador reativo de caracteres restantes.
+  - Feedback visual de sucesso, limpeza reativa dos campos e log dos dados no console.
 
-```bash
-# npm
-npm install
+## 🛠️ Como Executar o Projeto Localmente
 
-# pnpm
-pnpm install
+### Pré-requisitos
+- Node.js (v18+ ou v20 LTS)
+- npm
 
-# yarn
-yarn install
+### Passo a Passo
 
-# bun
-bun install
-```
+1. Instalar as dependências do projeto:
+   ```bash
+   npm install
 
-## Development Server
+2. Iniciar o servidor de desenvolvimento:
+Bash
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
+3. Abrir no navegador:
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+http://localhost:3000
